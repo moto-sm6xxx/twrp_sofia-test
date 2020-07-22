@@ -60,9 +60,10 @@ TARGET_KERNEL_SOURCE := kernel/motorola/sofia
 TARGET_KERNEL_CONFIG := sofia_defconfig
 
 # Platform
-# Fix this
-#TARGET_BOARD_PLATFORM := 
-#TARGET_BOARD_PLATFORM_GPU := 
+TARGET_BOARD_PLATFORM := trinket
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno610
+QCOM_BOARD_PLATFORMS += trinket
+
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := sofia
